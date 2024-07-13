@@ -1,0 +1,25 @@
+meta {
+  name: 회원가입
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{URL}}/users
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "email": "ryungom@gmail.com",
+    "password": "12341234",
+    "name": "겅듀님",
+    "type": "user",
+    "profileImage": {
+        "originalname": "ë¦´ë¼.jpeg",
+        "name": "y-59yvNMB.jpeg",
+        "path": "/files/00-sample/y-59yvNMB.jpeg"
+      }
+  }
+}

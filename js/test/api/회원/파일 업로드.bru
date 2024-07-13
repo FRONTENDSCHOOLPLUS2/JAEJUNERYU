@@ -1,0 +1,15 @@
+meta {
+  name: 파일 업로드
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{URL}}/files
+  body: multipartForm
+  auth: none
+}
+
+body:multipart-form {
+  attach: @file(C:\Users\ryung\OneDrive\바탕 화면\퍼레이드\2023_공연팀제작물(치즈곰)\축제를 만든 사람들(사진)\릴라.jpeg)
+}

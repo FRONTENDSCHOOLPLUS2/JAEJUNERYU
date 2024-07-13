@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "멋사커뮤",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
