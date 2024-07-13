@@ -1,7 +1,6 @@
-import Button from "@components/Button";
 import Submit from "@components/Submit";
 import useLoginStore from "@hooks/store";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 
 function CommentNew ({ bbsId }) {
